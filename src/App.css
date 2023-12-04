@@ -1,0 +1,470 @@
+.sidenav {
+  width: 60px;
+  background: #111111;
+  min-height: 100vh;
+  max-height: 100%;
+  padding: 10px 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sidenav .logo {
+  margin: 15px 0 40px;
+}
+.sidenav .list-item {
+  margin-bottom: 20px;
+}
+.main_layout {
+  display: flex;
+}
+.head_section {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0 20px;
+}
+.content {
+  width: calc(100% - 60px);
+  padding: 0 33px;
+}
+body {
+  background: #222222;
+  color: white;
+}
+/* App.css or your stylesheet */
+
+.editable-team-name {
+  position: relative;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.editable-team-name .edit-button {
+  position: absolute;
+  visibility: hidden;
+}
+
+.editable-team-name:hover .edit-button,
+.editable-team-name .team-name-container:hover .edit-button {
+  visibility: visible;
+}
+.team-name-container button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+.editable-team-name .roaster-txt {
+  color: #fea013;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+.search-box input {
+  border: 1px solid #494949;
+  padding: 12px 16px 11px 28px;
+  background-color: transparent;
+  border-radius: 8px;
+  color: white;
+}
+.search-box {
+  position: relative;
+}
+.search-box img {
+  position: absolute;
+  left: 6px;
+  top: 11px;
+}
+.search-box button {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+.ReactModal__Content {
+  background: #2d2d2d !important;
+  color: #fff !important;
+  box-shadow: 0px 12px 28px 0px #16161680;
+  border: none !important;
+  min-height: 500px;
+  min-width: 500px;
+}
+.ReactModal__Content.delete-modal {
+  min-height: 200px;
+  min-width: 400px;
+  text-align: center;
+}
+.delete-modal .popup {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 200px;
+  padding: 20px 30px;
+  box-sizing: border-box;
+}
+.delete-modal .del-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.delete-modal .del-header .sure-txt {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.delete-modal .del-header .cross_del button {
+  font-size: 1.2rem;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  color: #fff;
+}
+.delete-modal .action-txt {
+  color: #cbcbcb;
+  text-align: left;
+}
+.delete-modal .button-container {
+  text-align: end;
+}
+.delete-modal .button-container .dele_btn {
+  background: #d23131;
+  color: #fff;
+  border: 1.5px solid #d23131;
+  margin-left: 10px;
+}
+.delete-modal .button-container .canc_btn {
+  background: transparent;
+  color: #fff;
+  border: 1.5px solid #494949;
+}
+.delete-modal .button-container button {
+  padding: 5px 15px;
+  border-radius: 6px;
+  height: 45px;
+  cursor: pointer;
+  width: 100px;
+}
+.ReactModal__Overlay {
+  background-color: rgb(32 31 31 / 92%) !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.edit_player_form {
+}
+.edit_player {
+  display: inline-block;
+  max-width: 550px;
+  position: relative;
+}
+.edit_player .popup {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 20px 30px;
+  box-sizing: border-box;
+}
+.edit_player .edit-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.edit_player .sure-txt {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.edit_player .cross_del button {
+  font-size: 1.2rem;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  color: #fff;
+}
+.edit_player .text_label_box {
+  width: 50%;
+  margin-bottom: 15px;
+}
+.edit_player .text_label_box.w_full {
+  width: 100%;
+  margin-bottom: 15px;
+}
+.edit_player .radio_label_box {
+  margin-bottom: 20px;
+}
+.edit_player .radio_label_box .radio-lb {
+  /* display: block; */
+  margin-bottom: 5px;
+}
+.edit_player .text_label_box select {
+  border: 1px solid #494949;
+  background-color: transparent;
+  color: #cbcbcb;
+  border-radius: 4px;
+  padding: 10px 10px;
+}
+.edit_player .button-container {
+  text-align: end;
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+}
+.edit_player .button-container button {
+  background: #fea013;
+  color: #fff;
+  padding: 11px 15px;
+  margin-left: 9px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+}
+.edit_player .text_label_box label {
+  display: block;
+  margin-bottom: 5px;
+  white-space: nowrap;
+}
+.edit_player .text_label_box input {
+  border: 1px solid #494949;
+  background-color: transparent;
+  color: #cbcbcb;
+  border-radius: 4px;
+  padding: 10px 10px;
+}
+.edit_player .edit_field {
+  display: inline-block;
+  margin-right: 20px;
+}
+.table-row-search {
+  display: flex;
+  position: absolute;
+  top: 31px;
+  right: 36px;
+}
+.table-row-search .import-team-btn {
+  background: #fea013;
+  color: #fff;
+  padding: 11px 15px;
+  margin-left: 9px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+}
+.table-row-search .re-import-team-btn {
+  background: transparent;
+  color: #fff;
+  padding: 11px 15px;
+  margin-left: 9px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 1.5px solid #494949;
+}
+.team-table thead th {
+  color: #cbcbcb;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-align: left;
+  width: 11%;
+}
+.team-table {
+  width: 100%;
+  padding: 10px 10px;
+  border-spacing: 5px 15px;
+}
+.team-table .link_player {
+  border-bottom: 1px solid #cbcbcb;
+  padding-bottom: 1px;
+  cursor: pointer;
+}
+.team-table .button-container {
+  display: flex;
+}
+.team-table .button-container button {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+.table-up-sec {
+  background: #2d2d2d;
+  min-height: calc(100vh - 130px);
+}
+.no-players .import-team-btn {
+  color: #fea013;
+
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.no-players {
+  margin-top: 200px;
+  text-align: center;
+  display: block;
+  position: relative;
+  left: 165%;
+}
+.no-players div {
+  white-space: nowrap;
+}
+.importer-header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #494949;
+  align-items: center;
+  margin-top: -20px;
+  margin-bottom: 30px;
+}
+.importer-header button {
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  font-size: 24px;
+}
+.styledInputWrapper {
+  position: relative;
+  display: flex;
+  border: 2px solid #494949;
+  width: fit-content;
+  border-radius: 4px;
+  height: 45px;
+  align-items: center;
+}
+.styledInputWrapper .file-name {
+  padding: 0 50px 0 9px;
+  color: #cbcbcb;
+}
+.styledInputLabel {
+  display: inline-block;
+  padding: 8px 12px;
+  background-color: transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  border-left: 1px solid #494949;
+  color: #cbcbcb;
+}
+.csv-txt {
+  color: #cbcbcb;
+  margin: 15px 0;
+}
+.error-txt {
+  color: #d23131;
+  display: block;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.error-file {
+  color: #cbcbcb;
+}
+.styledInput {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+.import-modal-btn {
+  background: #fea013;
+  color: #fff;
+  padding: 13px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 90px;
+  border: none;
+  height: 45px;
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+}
+.file-summary-info h3 {
+  font-weight: 500;
+}
+.file-summary-info ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+.file-summary-info ul li {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+.file-summary-info ul li .sum-position {
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+.file-summary-info ul li .sum-count {
+  font-weight: 600;
+}
+
+.formation_view {
+  display: flex;
+  margin-top: 50px;
+  background: #2d2d2d;
+  padding: 30px;
+}
+.formation_view .img-overview {
+  margin-right: 30px;
+}
+.player_details_card {
+  background: #222222;
+  padding: 30px;
+  width: 324px;
+}
+.player_details_card .img-player {
+  /* max-width: 175px; */
+  max-height: 258px;
+  text-align: center;
+}
+.player_details_card .position {
+  color: #fea013;
+}
+.player_details_card .row-one {
+  padding: 20px 0;
+  border-bottom: 1px solid #494949;
+  display: flex;
+  justify-content: space-between;
+}
+.player_details_card .row-one .play_label {
+  display: block;
+  color: #cbcbcb;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.player_details_card .row-two {
+  display: flex;
+  /* justify-content: space-between; */
+  margin-top: 20px;
+}
+.player_details_card .row-two .play_info{
+width: 50%;
+}
+.player_details_card .row-two .data_play {
+  color: #fea013;
+  font-size: 24px;
+  font-weight: 600;
+  display: block;
+  
+}
+.player_details_card .row-two .info_play {
+  color: #cbcbcb;
+}
+
+.player_details_card .row-three {
+  display: flex;
+  /* justify-content: space-between; */
+  margin-top: 10px;
+}
+.player_details_card .row-three .play_info{
+  width: 50%;
+  }
+  
+.player_details_card .row-three .data_play {
+  color: #fea013;
+  font-size: 24px;
+  font-weight: 600;
+  display: block;
+  
+}
+.player_details_card .row-three .info_play {
+  color: #cbcbcb;
+}
