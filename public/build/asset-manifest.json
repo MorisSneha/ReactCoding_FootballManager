@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d6e72819.css",
+    "main.js": "/static/js/main.370300c8.js",
+    "static/js/787.4b348131.chunk.js": "/static/js/787.4b348131.chunk.js",
+    "static/media/Field.png": "/static/media/Field.fa36d82bc419e843ab5b.png",
+    "static/media/logo-icon.svg": "/static/media/logo-icon.af1fe2912c7eed4bfce5c484c3f9f054.svg",
+    "static/media/delete-action-icon.svg": "/static/media/delete-action-icon.07751ec8e018c681a82b2b452cf2aace.svg",
+    "static/media/search.svg": "/static/media/search.2deffadc510da0e93af84bf0d8205d16.svg",
+    "index.html": "/index.html",
+    "static/media/pen.svg": "/static/media/pen.77ec7accb893433f3fc48e73d15638cd.svg",
+    "static/media/edit-action-icon.svg": "/static/media/edit-action-icon.6c51815f8ab4e238af2a4197b2c9c4e3.svg",
+    "main.d6e72819.css.map": "/static/css/main.d6e72819.css.map",
+    "main.370300c8.js.map": "/static/js/main.370300c8.js.map",
+    "787.4b348131.chunk.js.map": "/static/js/787.4b348131.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d6e72819.css",
+    "static/js/main.370300c8.js"
+  ]
+}
